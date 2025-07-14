@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fees & Payment | Student Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fees & Payment</h1>
+    </header>
+    <div class="container">
+        <h2>Fee Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fee Type</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tuition Fee</td>
+                    <td>₹2,00,000</td>
+                    <td class="paid">Paid</td>
+                </tr>
+                <tr>
+                    <td>Exam Fee</td>
+                    <td>₹3,500</td>
+                    <td class="due">Due</td>
+                </tr>
+    
+            </tbody>
+        </table>
+        <div class="payment-section">
+            <h2>Make a Payment</h2>
+            <form>
+                <label for="feeType">Fee Type:</label>
+                <input type="text" id="feeType" name="feeType" placeholder="types" required>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" placeholder="amount" required>
+                <button type="submit" class="btn">Pay Now</button>
+            </form>
+        </div>
+        <a href="home.html" class="btn back">&#8592; Back to Home</a>
+    </div>
